@@ -19,7 +19,7 @@ To play the second game, you also have to pay 10 Euros. Then you proceed to thro
 Implement a singleton decorator in the file ``src/singleton_decorator.py``. You will be using this decorator for other tasks down the line.
 
 ## Task 2
-In the file ``src/die.py``, complete the class ``Die`` with the following functionalities:
+In the file ``src/dice.py``, complete the class ``Dice`` with the following functionalities:
 * The class must be a singleton.
 
 The dice record is a dictionary:
@@ -27,7 +27,7 @@ The dice record is a dictionary:
 * The respective values are tuples (numbers of occurrences of the number in the key, ratio of occurrences of the number in the key).
 
 
-> For example; the die's record would be looking like this:
+> For example; the dice's record would be looking like this:
 >
 > {'1': (18, 0.14), '2': (28, 0.21), '3': (24, 0.18), '4': (17, 0.13), '5': (29, 0.21), '6': (21, 0.16)}
 > 

@@ -9,7 +9,10 @@ class GameMaster:
 
     def host_game(self, game_type):
         # complete this method
-        pass
+        game_start = GameFactory()
+        result = game_start.create_object(game_type)
+        self.credit = self.credit - result
+        
 
     def __str__(self):
         return f"Game Master capital: {self.credit}"
